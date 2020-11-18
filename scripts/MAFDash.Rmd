@@ -5,6 +5,7 @@ output:
     source_code: embed
     theme: yeti
     orientation: rows
+    vertical_layout: scroll
 params:
   maffile: "MAF object or path to MAF file"
   titletext: "MAF Dash"
