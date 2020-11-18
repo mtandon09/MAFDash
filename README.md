@@ -1,9 +1,11 @@
-#### View on [github.io](https://mtandon09.github.io/Dynamic_Plotly/)
+#### View on [github.io](https://mtandon09.github.io/MAFDash/)
 # MAFDash
 *Cuz once you've called the variants, it's a MAF dash to the finish line*
 
 ## Example
 Here are some example dashboards created using TCGA data:
+- [TCGA-UVM](https://mtandon09.github.io/MAFDash/output/UVM/TCGA-UVM.MAFDash.html)
+- [TCGA-BRCA](https://mtandon09.github.io/MAFDash/output/BRCA/TCGA-BRCA.MAFDash.html)
 
 ## Scope
 [Mutation Annotation Format (MAF)](https://docs.gdc.cancer.gov/Encyclopedia/pages/Mutation_Annotation_Format/) is a tabular data format used for storing genetic mutation data. For example, [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) project has made MAF files from each project publicly available.
@@ -79,10 +81,11 @@ cran_packages <- cran_packages[!(cran_packages %in% installed.packages()[,"Packa
 print(paste0("Installing ",length(cran_packages), " new packages from CRAN..."))
 if(length(cran_packages)) install.packages(cran_packages, repos="https://cloud.r-project.org")
 ```
+#### Session Info
+I've created and tested this using R 3.6.2.  Here's the complete `sessionInfo`
 
-I've created and tested this using R 3.6.2.  Here's the complete sessionInfo:
-
-```R version 3.6.2 (2019-12-12)
+```
+R version 3.6.2 (2019-12-12)
 Platform: x86_64-apple-darwin15.6.0 (64-bit)
 Running under: macOS Mojave 10.14.6
 
