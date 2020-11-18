@@ -4,8 +4,8 @@
 
 ## Example
 Here are some example dashboards created using TCGA data:
-- [TCGA-UVM](https://mtandon09.github.io/MAFDash/output/UVM/TCGA-UVM.MAFDash.html)
-- [TCGA-BRCA](https://mtandon09.github.io/MAFDash/output/BRCA/TCGA-BRCA.MAFDash.html)
+- [TCGA-UVM](output/UVM/TCGA-UVM.MAFDash.html)
+- [TCGA-BRCA](output/BRCA/TCGA-BRCA.MAFDash.html)
 
 ## Scope
 [Mutation Annotation Format (MAF)](https://docs.gdc.cancer.gov/Encyclopedia/pages/Mutation_Annotation_Format/) is a tabular data format used for storing genetic mutation data. For example, [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) project has made MAF files from each project publicly available.
